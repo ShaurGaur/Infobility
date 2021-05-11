@@ -1,25 +1,32 @@
 import React from 'react';
 import './App.css';
-import {Layout, Header, HeaderRow, Content, Tab, HeaderTabs} from "react-mdl"
+import Main from "./components/main";
+import {Layout, Header, Navigation, Content, Menu, MenuItem} from "react-mdl"
+import { Link } from "react-router-dom"
 
 
 function App() {
   return (
-<div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader fixedTabs>
-        <Header>
-            <HeaderRow title="Infobility" />
-            <HeaderTabs ripple activeTab={0} onChange={(tabId) => {}}>
-                <Tab>Tab1</Tab>
-                <Tab>Tab2</Tab>
-                <Tab>Tab3</Tab>
-            </HeaderTabs>
+<div className="demo-big-content">
+    <Layout>
+        <Header scroll>
+            <Link to = "/"><h3>Infobility</h3></Link>
+            <Navigation>
+                <a href = "/aboutus">About Us</a>
+                <a id  = "Courses">Course</a>
+                <Menu target ="Courses">
+                    <MenuItem><Link to = "/adhd">ADHD</Link></MenuItem>
+                    <MenuItem>Autism</MenuItem>
+                    <MenuItem>Advocacy</MenuItem>
+                    <MenuItem>Fun</MenuItem>
+                </Menu>
+            </Navigation>
         </Header>
         <Content>
-            <div className="page-content">You can add logic to update the content of this container based on the "activeTab" receive in the `onChange` callback.</div>
+            <Main />
         </Content>
     </Layout>
-            </div>
+</div>
   );
 }
 
