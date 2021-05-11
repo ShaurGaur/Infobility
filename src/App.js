@@ -16,9 +16,9 @@ function App() {
                 <a id  = "Courses">Course</a>
                 <Menu target ="Courses">
                     <MenuItem><Link to = "/adhd">ADHD</Link></MenuItem>
-                    <MenuItem>Autism</MenuItem>
-                    <MenuItem>Advocacy</MenuItem>
-                    <MenuItem>Fun</MenuItem>
+                    <MenuItem><Link to = "/autism">Autism</Link></MenuItem>
+                    <MenuItem><Link to = "/advocacy">Advocacy</Link></MenuItem>
+                    <MenuItem><Link to = "/fun">Fun</Link></MenuItem>
                 </Menu>
             </Navigation>
         </Header>
