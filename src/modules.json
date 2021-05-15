@@ -1,0 +1,510 @@
+{
+    "title": "Courses",
+    "description": "All of the courses.",
+    "submodules": [
+        {
+            "title": "ADHD",
+            "description": "Learn more about ADHD.",
+            "submodules": [
+                {
+                    "title": "Overview",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "What Is It?",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Symptoms",
+                            "description": "A deeper look into symptoms.",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Differences between Genders",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "ADHD in Kids",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "ADHD in Teens",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "ADHD in Adults",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "What We Still Don't Know",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Comorbidity",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Mood Disorders",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Anxiety",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Tics and Tourette's Syndrome",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Learning Disorders",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Disruptive Behavior Disorders",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Services",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Setting up Special Services from Schools",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "What to Look for in a Daycare or Preschool",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Advocacy",
+                            "description": "Check out our advocacy module (in Extra)!",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Parent-Child Interaction",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Implementing a Schedule",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Creating a Structure",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Appropriate Chores",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Taking Medication",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Hygiene Routines",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "De-Escalation",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Communication with Others",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Strategies for Going Out",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Explaining to Family & Friends",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Interactions with Siblings",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Extracurriculars",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Learning-Based",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Discipline",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Sensory Issues",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Tracking and Completing Homework",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Testimonials",
+                    "description": "",
+                    "submodules": []
+                }
+            ]
+        },
+        {
+            "title": "Autism",
+            "description": "Learn more about Autism.",
+            "submodules": [
+                {
+                    "title": "Overview",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "What Is It?",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "How the Spectrum Works",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Symptoms",
+                            "description": "A deeper look into symptoms.",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Differences between Genders",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Autism in Kids",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Autism in Teens",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Autism in Adults",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "What We Still Don't Know",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Comorbidity",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Epilepsy",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Disrupted Sleep",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "ADHD",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "OCD",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Anxiety",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Depression",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Services",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Setting up Special Services from Schools",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "What to Look for in a Daycare or Preschool",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Advocacy",
+                            "description": "Check out our advocacy module (in Extra)!",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Parent-Child Interaction",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Implementing a Schedule",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Creating a Structure",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Appropriate Chores",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Taking Medication",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Hygiene Routines",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "De-Escalation",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Encouraging and Navigating Communication",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Communication with Others",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Strategies for Going Out",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Explaining to Family & Friends",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Interactions with Siblings",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Extracurriculars",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Learning-Based",
+                    "description": "",
+                    "submodules": [
+                        {
+                            "title": "Discipline",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Sensory Issues",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Tracking and Completing Homework",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Testimonials",
+                    "description": "",
+                    "submodules": []
+                }
+            ]
+        },
+        {
+            "title": "Extra",
+            "description": "Additional, shorter modules, for fun and advocacy.",
+            "submodules": [
+                {
+                    "title": "ASL Alphabet",
+                    "description": "Learn about the sign language alphabet.",
+                    "submodules": [
+                        {
+                            "title": "Learn the Alphabet",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Practice Spelling Common Words",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Identify Words Spelled",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Mixed Practice",
+                            "description": "",
+                            "submodules": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Braille",
+                    "description": "Learn about the Braille alphabet!",
+                    "submodules": [
+                        {
+                            "title": "Braille Alphabet",
+                            "description": "",
+                            "submodules": []
+                        },
+                        {
+                            "title": "Reading Braille",
+                            "description": "",
+                            "submodules": [
+                                {
+                                    "title": "Identify Common Words",
+                                    "description": "",
+                                    "submodules": []
+                                },
+                                {
+                                    "title": "Food",
+                                    "description": "",
+                                    "submodules": []
+                                },
+                                {
+                                    "title": "School",
+                                    "description": "",
+                                    "submodules": []
+                                },
+                                {
+                                    "title": "Common Questions",
+                                    "description": "",
+                                    "submodules": []
+                                },
+                                {
+                                    "title": "Time",
+                                    "description": "",
+                                    "submodules": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Advocacy",
+                    "description": "How to advocate for disabilities",
+                    "submodules": [
+                        {
+                            "title": "How to be your child's advocate",
+                            "description": "",
+                            "submodules": [
+
+                            ]
+                        }
+                        {
+                            "title": "How to Find / Access Services",
+                            "description": "",
+                            "submodules": [
+
+                            ]
+                        },
+                        {
+                            "title": "More Resources",
+                            "description": "",
+                            "submodules": [
+
+                            ]
+                        },
+                        {
+                            "title": "Support Groups",
+                            "description": "",
+                            "submodules": [
+
+                            ]
+                        },
+                        {
+                            "title": "Clubs and Meetings for Kids",
+                            "description": "",
+                            "submodules": [
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
