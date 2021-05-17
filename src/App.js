@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Main from "./components/main";
+import Module from "./components/Module";
 import {
     Layout,
     Header,
@@ -9,45 +10,67 @@ import {
     Content,
     Menu,
     MenuItem,
+    ProgressBar,
 } from "react-mdl";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
+import { render } from "@testing-library/react";
 
-function App() {
-    return (
-        <div className="demo-big-content">
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: null,
+        };
+    }
+
+    componentDidMount() {
+        var data_obj = require("./modules.json");
+        console.log(data_obj);
+        this.setState({ data: data_obj });
+    }
+
+    renderData() {
+        return (
             <Layout>
                 <Header title="Infobility" scroll>
-                    {/* <Link to="/">
-                        <h3>Infobility</h3>
-                    </Link> */}
                     <Navigation>
                         <Link to="/">Home</Link>
                         <Link to="/aboutus">About Us</Link>
-                        <Link to="/" id="Courses">
+                        <Link to="/modules/Courses" id="Courses">
                             Courses
                         </Link>
                         <Menu target="Courses">
-                            <MenuItem>
-                                <Link to="/adhd">ADHD</Link>
-                            </MenuItem>
-                            <MenuItem>
-                                <Link to="/autism">Autism</Link>
-                            </MenuItem>
-                            <MenuItem>
-                                <Link to="/advocacy">Advocacy</Link>
-                            </MenuItem>
-                            <MenuItem>
-                                <Link to="/fun">Fun</Link>
-                            </MenuItem>
+                            {this.state.data.submodules.map((elem) => {
+                                var url =
+                                    "/modules/" +
+                                    elem.title.replace(/\s+/g, "_");
+                                return (
+                                    <MenuItem>
+                                        <Link to={url}>{elem.title}</Link>
+                                    </MenuItem>
+                                );
+                            })}
                         </Menu>
                     </Navigation>
                 </Header>
                 <Content>
-                    <Main />
+                    <Main info={this.state.data} />
                 </Content>
             </Layout>
-        </div>
-    );
+        );
+    }
+
+    renderProgress = () => <ProgressBar />;
+
+    render() {
+        return (
+            <div className="demo-big-content">
+                {this.state.data != null
+                    ? this.renderData()
+                    : this.renderProgress()}
+            </div>
+        );
+    }
 }
 
 export default App;
