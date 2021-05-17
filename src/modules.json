@@ -93,7 +93,7 @@
                             "submodules": []
                         },
                         {
-                            "title": "Advocacy",
+                            "title": "Advocacy with ADHD",
                             "description": "Check out our advocacy module (in Extra)!",
                             "submodules": []
                         }
@@ -290,7 +290,7 @@
                             "submodules": []
                         },
                         {
-                            "title": "Advocacy",
+                            "title": "Advocacy with Autism",
                             "description": "Check out our advocacy module (in Extra)!",
                             "submodules": []
                         }
@@ -392,7 +392,38 @@
             ]
         },
         {
-            "title": "Extra",
+            "title": "Advocacy",
+            "description": "How to advocate for disabilities",
+            "submodules": [
+                {
+                    "title": "How to be your child's advocate",
+                    "description": "",
+                    "submodules": []
+                },
+                {
+                    "title": "How to Find / Access Services",
+                    "description": "",
+                    "submodules": []
+                },
+                {
+                    "title": "More Resources",
+                    "description": "",
+                    "submodules": []
+                },
+                {
+                    "title": "Support Groups",
+                    "description": "",
+                    "submodules": []
+                },
+                {
+                    "title": "Clubs and Meetings for Kids",
+                    "description": "",
+                    "submodules": []
+                }
+            ]
+        },
+        {
+            "title": "Miscellaneous Fun",
             "description": "Additional, shorter modules, for fun and advocacy.",
             "submodules": [
                 {
@@ -460,37 +491,6 @@
                                     "submodules": []
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "title": "Advocacy",
-                    "description": "How to advocate for disabilities",
-                    "submodules": [
-                        {
-                            "title": "How to be your child's advocate",
-                            "description": "",
-                            "submodules": []
-                        },
-                        {
-                            "title": "How to Find / Access Services",
-                            "description": "",
-                            "submodules": []
-                        },
-                        {
-                            "title": "More Resources",
-                            "description": "",
-                            "submodules": []
-                        },
-                        {
-                            "title": "Support Groups",
-                            "description": "",
-                            "submodules": []
-                        },
-                        {
-                            "title": "Clubs and Meetings for Kids",
-                            "description": "",
-                            "submodules": []
                         }
                     ]
                 }
