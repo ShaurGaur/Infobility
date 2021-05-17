@@ -1,22 +1,8 @@
 import React, { Component } from "react";
-import {
-    Tab,
-    Tabs,
-    CardTitle,
-    CardActions,
-    Button,
-    Card,
-    CardText,
-    Grid,
-    Cell,
-} from "react-mdl";
+import { CardTitle, CardActions, Button, Card, CardText } from "react-mdl";
 import { Link } from "react-router-dom";
 
 class Module extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     renderCard(elem) {
         var url = "/modules/" + elem.title.replace(/\s+/g, "_");
         return (

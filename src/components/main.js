@@ -3,10 +3,6 @@ import { Switch, Route } from "react-router-dom";
 
 import HomePage from "./HomePage";
 import AboutUs from "./AboutUs";
-import ADHD from "./ADHD";
-import Autism from "./Autism";
-import Advocacy from "./Advocacy";
-import Fun from "./Fun";
 import Module from "./Module";
 
 class Main extends React.Component {
@@ -20,7 +16,7 @@ class Main extends React.Component {
     buildArr(obj, root) {
         var ans = [];
 
-        if (obj != undefined) {
+        if (obj !== undefined) {
             ans.push({ title: obj.title, body: obj });
 
             obj.submodules.forEach((elem) => {
@@ -43,10 +39,6 @@ class Main extends React.Component {
             <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route path="/aboutus" component={AboutUs} />
-                <Route path="/adhd" component={ADHD} />
-                <Route path="/autism" component={Autism} />
-                <Route path="/advocacy" component={Advocacy} />
-                <Route path="/fun" component={Fun} />
                 {this.state.expandedNodes.map((elem) => {
                     var url = "/modules/" + elem.title.replace(/\s+/g, "_");
                     return (

@@ -1,14 +1,8 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import React, { Component } from "react";
 
-class About extends Component{
-    render(){
-        return(
-            <div>
-                About Us page
-            </div>
-
-        )
+class About extends Component {
+    render() {
+        return <div>About Us page</div>;
     }
 }
 

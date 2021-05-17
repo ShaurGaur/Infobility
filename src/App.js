@@ -1,19 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
 import Main from "./components/main";
-import Module from "./components/Module";
 import {
     Layout,
     Header,
-    Drawer,
     Navigation,
     Content,
     Menu,
     MenuItem,
     ProgressBar,
 } from "react-mdl";
-import { Link, Switch, Route } from "react-router-dom";
-import { render } from "@testing-library/react";
+import { Link } from "react-router-dom";
 
 class App extends React.Component {
     constructor(props) {
