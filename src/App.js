@@ -17,7 +17,6 @@ class App extends React.Component {
             data: null,
         };
     }
-
     componentDidMount() {
         var data_obj = require("./modules.json");
         console.log(data_obj);
