@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Sarah Clampitt",
+        "position": "CEO, Lead Disability Expert",
+        "description": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow!",
+        "image": "banner-2.png",
+        "email": "gaurs@oregonstate.edu"
+    },
+    {
+        "name": "Kepha Barasa",
+        "position": "CIO, Lead Researcher",
+        "description": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow!",
+        "image": "banner-2.png",
+        "email": "gaurs@oregonstate.edu"
+    },
+    {
+        "name": "Shaurya Gaur",
+        "position": "CFO, Software Engineer",
+        "description": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow!",
+        "image": "banner-2.png",
+        "email": "gaurs@oregonstate.edu"
+    },
+    {
+        "name": "Kenneth Kang",
+        "position": "CMO, Software Engineer",
+        "description": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow!",
+        "image": "banner-2.png",
+        "email": "gaurs@oregonstate.edu"
+    }
+]

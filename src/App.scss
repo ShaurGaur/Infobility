@@ -84,4 +84,19 @@ $font-family-base: "Noto Sans KR" !default;
     }
 }
 
+.about-page .card-container {
+    margin: 50px 6%;
+    justify-content: center;
+
+    img {
+        object-fit: cover;
+        width: 170px;
+        height: 170px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @import "~bootstrap/scss/bootstrap";
