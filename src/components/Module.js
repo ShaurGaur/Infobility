@@ -33,7 +33,10 @@ class Module extends Component {
         return (
             <div className="module-page">
                 {this.props.parent ? (
-                    <Link to={prt}>Back to {this.props.parent}</Link>
+                    <Link to={prt} className="parent-link">
+                        <span class="material-icons">north</span>
+                        Back to {this.props.parent}
+                    </Link>
                 ) : (
                     <div />
                 )}

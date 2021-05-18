@@ -99,4 +99,8 @@ $font-family-base: "Noto Sans KR" !default;
     }
 }
 
+.parent-link {
+    display: inline-flex;
+}
+
 @import "~bootstrap/scss/bootstrap";
