@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
+import "./App.scss";
 import Main from "./components/main";
-import {
-    Layout,
-    Header,
-    Navigation,
-    Content,
-    Menu,
-    MenuItem,
-    ProgressBar,
-} from "react-mdl";
+
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import ProgressBar from "react-bootstrap/ProgressBar";
+import SplitButton from "react-bootstrap/SplitButton";
 import { Link } from "react-router-dom";
 
 class App extends React.Component {
@@ -28,32 +26,42 @@ class App extends React.Component {
 
     renderData() {
         return (
-            <Layout>
-                <Header title="Infobility" scroll>
-                    <Navigation>
-                        <Link to="/">Home</Link>
-                        <Link to="/aboutus">About Us</Link>
-                        <Link to="/modules/Courses" id="Courses">
-                            Courses
-                        </Link>
-                        <Menu target="Courses">
-                            {this.state.data.submodules.map((elem) => {
-                                var url =
-                                    "/modules/" +
-                                    elem.title.replace(/\s+/g, "_");
-                                return (
-                                    <MenuItem>
-                                        <Link to={url}>{elem.title}</Link>
-                                    </MenuItem>
-                                );
-                            })}
-                        </Menu>
-                    </Navigation>
-                </Header>
-                <Content>
-                    <Main info={this.state.data} />
-                </Content>
-            </Layout>
+            <div>
+                <Navbar bg="primary" variant="light" fixed="top">
+                    <Navbar.Brand href="/">
+                        <span
+                            class="material-icons d-inline-block align-top"
+                            style={{ fontSize: 27 }}
+                        >
+                            face
+                        </span>{" "}
+                        Infobility
+                    </Navbar.Brand>
+                    <Navbar.Collapse className="justify-content-end">
+                        <Nav variant="pills">
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/aboutus">About Us</Nav.Link>
+                            <NavDropdown
+                                alignRight
+                                title="Courses"
+                                id="course-dropdown"
+                            >
+                                {this.state.data.submodules.map((elem) => {
+                                    var url =
+                                        "/modules/" +
+                                        elem.title.replace(/\s+/g, "_");
+                                    return (
+                                        <NavDropdown.Item href={url}>
+                                            {elem.title}
+                                        </NavDropdown.Item>
+                                    );
+                                })}
+                            </NavDropdown>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+                <Main info={this.state.data} />
+            </div>
         );
     }
 

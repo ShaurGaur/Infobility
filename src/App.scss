@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+$theme-colors: (
+    "primary": tomato,
+    "danger": teal,
+);
+
+$font-family-base: "Noto Sans KR" !default;
+
+.card-container {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 10px;
+    display: flex;
+    min-width: 258px;
+}
+
+@media (min-width: 720px) {
+    .card {
+        flex: 0 0 20%;
+    }
+}
+
+@media (min-width: 671px) and (max-width: 719px) {
+    .card {
+        flex: 1 0 27.33%;
+        max-width: 82%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 670px) {
+    .card {
+        flex: 1 0 41%;
+        max-width: 82%;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        flex: 1 0 82%;
+    }
+}
+
+.module-page {
+    margin: 50px 6%;
+    padding: 50px;
+}
+
+.main-content {
+    margin-top: 50px;
+
+    .about-page {
+        .jumbotron {
+            margin: 0;
+        }
+
+        .section {
+            margin: 50px 6%;
+            padding: 50px;
+        }
+    }
+}
+
+.course-dropdown {
+    a {
+        display: block;
+        font-weight: 900;
+    }
+}
+
+.carousel {
+    margin: 0;
+    img {
+        filter: brightness(20%);
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@import "~bootstrap/scss/bootstrap";

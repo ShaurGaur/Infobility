@@ -11,7 +11,7 @@
                     "description": "",
                     "submodules": [
                         {
-                            "title": "What Is It?",
+                            "title": "About ADHD",
                             "description": "",
                             "submodules": []
                         },
@@ -198,7 +198,7 @@
                     "description": "",
                     "submodules": [
                         {
-                            "title": "What Is It?",
+                            "title": "About Autism",
                             "description": "",
                             "submodules": []
                         },
@@ -423,7 +423,7 @@
             ]
         },
         {
-            "title": "Miscellaneous Fun",
+            "title": "Fun & Extra",
             "description": "Additional, shorter modules, for fun and advocacy.",
             "submodules": [
                 {
