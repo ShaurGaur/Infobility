@@ -44,11 +44,14 @@ class ModuleCard extends Component {
                     )}
                 </Card.Body>
                 <Card.Footer>
-                    <Button as="a" href={url} style={{ marginRight: 15 }}>
+                    <Button as="a" href={url} className="footer-button">
                         Open
                     </Button>
                     {this.props.info.submodules.length > 0 ? (
-                        <Button onClick={this.toggleList}>
+                        <Button
+                            onClick={this.toggleList}
+                            className="footer-button"
+                        >
                             {this.state.expanded ? "Hide" : "Show"}
                             {" Preview"}
                         </Button>
