@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import { CardTitle, CardActions, Button, Card, CardText } from "react-mdl";
 import { Link } from "react-router-dom";
 
 import Card from "react-bootstrap/Card";
